@@ -100,16 +100,18 @@
 
             <Button
             android:id="@+id/btnEnviarSMS"
+            style="@style/CustomStyleButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
                 android:layout_weight="0.5"
             android:text="Enviar SMS"/>
             <Button
                 android:id="@+id/btnCadastrarContato"
+                style="@style/CustomStyleButton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="0.5"
-                android:text="cadastrar contato"/>
+                android:text="Novo Contato"/>
 
         </LinearLayout>
 

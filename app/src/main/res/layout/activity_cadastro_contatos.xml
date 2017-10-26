@@ -11,14 +11,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.7">
+        android:layout_weight="0.6">
 
+        <ImageView
+            android:id="@+id/imageView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/contatos" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.5"
+        android:layout_weight="0.6"
         android:orientation="vertical"
         android:layout_gravity="center">
         <EditText
@@ -53,11 +60,11 @@
 
         <Button
             android:id="@+id/btnCadastrar"
+            style="@style/CustomStyleButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="Cadastrar contato"
-            />
+            android:text="Cadastrar contato" />
 
     </LinearLayout>
 
